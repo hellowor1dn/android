@@ -7,6 +7,9 @@
   <remote  name="hardkernel"
            fetch="https://github.com/hardkernel/" />
 
+  <remote  name="focal"
+           fetch="https://github.com/hellowor1dn/" />
+
   <remote  name="origin"
            fetch="https://github.com/codewalkerster/" />
 
@@ -21,7 +24,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="bootable/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidc2-v2015.01" />
+  <project path="bootable/uboot" name="u-boot" remote="focal" revision="refs/heads/odroidc2-v2015.01" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -30,7 +33,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/hardkernel/common" name="android_device_hardkernel_common" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="device/hardkernel/odroidc2" name="android_device_hardkernel_odroidc2" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
+  <project path="device/hardkernel/odroidc2" name="android_device_hardkernel_odroidc2" groups="device" remote="focal" revision="refs/heads/s905_6.0.1_master" />
   <project path="device/hardkernel/proprietary" name="android_device_hardkernel_proprietary" groups="device" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
