@@ -24,7 +24,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="origin" revision="refs/heads/s905_6.0.1_master" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="origin" revision="refs/heads/s905_6.0.1_master" />
-  <project path="bootable/uboot" name="u-boot" remote="focal" revision="refs/heads/odroidc2-v2015.01" />
+  <project path="bootable/uboot" name="u-boot" remote="hardkernel" revision="refs/heads/odroidc2-v2015.01" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
